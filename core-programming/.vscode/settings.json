@@ -1,0 +1,18 @@
+{
+    "java.project.sourcePaths": [
+        "ProgrammingElements/Level2",
+        "ProgrammingElements/Level1",
+        "Prerequisites",
+        "Methods/Level3",
+        "Methods/Level2",
+        "Methods/Level1",
+        "Java_Strings/Level2",
+        "Java_Strings/Level1",
+        "JavaArrays/Level2",
+        "JavaArrays/Level1",
+        "ControlFlow/Level3",
+        "ControlFlow/Level2",
+        "ControlFlow/Level1",
+        "Java_Strings/Level3"
+    ]
+}
