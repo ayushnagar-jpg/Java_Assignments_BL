@@ -8,11 +8,12 @@
         "Methods/Level1",
         "Java_Strings/Level2",
         "Java_Strings/Level1",
-        "JavaArrays/Level2",
-        "JavaArrays/Level1",
+        "Java_Arrays/Level2",
+        "Java_Arrays/Level1",
         "ControlFlow/Level3",
         "ControlFlow/Level2",
         "ControlFlow/Level1",
-        "Java_Strings/Level3"
+        "Java_Strings/Level3",
+        "object-oriented-programming/Java_objectAndClass"
     ]
 }

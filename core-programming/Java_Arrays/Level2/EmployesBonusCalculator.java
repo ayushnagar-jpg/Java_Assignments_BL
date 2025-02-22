@@ -1,11 +1,9 @@
-
-    import java.util.Scanner;
-
-public class EmployeeBonusCalculator {
+import java.util.*;
+public class EmployesBonusCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int numEmployees = 10; // Total number of employees
+        int numEmployees = 3; // Total number of employees
         double[] salaries = new double[numEmployees];
         double[] yearsOfService = new double[numEmployees];
         double[] bonuses = new double[numEmployees];
@@ -13,6 +11,10 @@ public class EmployeeBonusCalculator {
 
         double totalBonus = 0.0, totalOldSalary = 0.0, totalNewSalary = 0.0;
 
+
+
+
+        
         // Taking user input for salary and years of service
         for (int i = 0; i < numEmployees; i++) {
             while (true) {
@@ -43,11 +45,11 @@ public class EmployeeBonusCalculator {
             totalNewSalary += newSalaries[i];
         }
 
-        // Displaying results
+      //  Displaying results
         System.out.println("\nEmployee Salary Details:");
         System.out.println("------------------------------------------------------");
         System.out.printf("%-10s %-15s %-10s %-15s%n", "Employee", "Old Salary", "Bonus", "New Salary");
-        System.out.println("------------------------------------------------------");
+       System.out.println("------------------------------------------------------");
 
         for (int i = 0; i < numEmployees; i++) {
             System.out.printf("%-10d %-15.2f %-10.2f %-15.2f%n", (i + 1), salaries[i], bonuses[i], newSalaries[i]);
